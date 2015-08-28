@@ -139,6 +139,7 @@ a:hover {
 
 #title {
   color: #4a4a4a;
+  max-width: 725px;
   margin-bottom: 0.35em;
   font-size: 3em;
   line-height: 40px;
@@ -183,6 +184,13 @@ a:hover {
 .post ul, .post ol {
   margin-left: 2.35em;
   margin-bottom: 1.25em;
+}
+
+.post img {
+  margin-bottom:10px;
+  margin-right:10px;
+  margin-left:10px;
+  outline: none;
 }
 
 .post code {
