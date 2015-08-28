@@ -3,7 +3,7 @@ layout: post
 title: CEMC simulator repository available at github
 cover: cover.jpg
 date:   2015-08-25
-categories: posts, modeling, R
+categories: posts
 ---
 
 ## Trying out github

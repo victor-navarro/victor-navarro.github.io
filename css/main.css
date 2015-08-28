@@ -153,6 +153,7 @@ a:hover {
 }
 
 .post h2 {
+  max-width: 725px;
   margin-top: 1.25em;
   margin-left: -0.5em;
   margin-bottom: 1.25em;
