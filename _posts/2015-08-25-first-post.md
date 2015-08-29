@@ -12,7 +12,7 @@ I have decided to learn the ways of git and make some of my work publicly availa
 
 ## The Common-elements model of object categorization learning
 
-What a long name. This model was developed by a fellow Chilean student, [Fabian Soto](http://people.psych.ucsb.edu/soto/fabian/), and my boss, [Edward Wasserman](http://psychology.uiowa.edu/people/edward-wasserman) a few years ago, in order to model how conceptualization with natural categories is acquired and expressed. Not only it has been successful in explain prime findings in categorization learning, but has predicted various new ones.
+What a long name. This model was developed by a fellow Chilean student, [Fabian Soto](http://people.psych.ucsb.edu/soto/fabian/), and my boss, [Edward Wasserman](http://psychology.uiowa.edu/people/edward-wasserman), a few years ago, in order to model how conceptualization with natural categories is acquired and expressed. Not only it has been successful in explain prime findings in categorization learning, but has predicted various new ones.
 
 I developed the simulator in R, as it gave me the opportunity of learning the basics of that programming language. Additionally, I wanted to make something accessible for more users (you can download and hack your version of R, [freely](https://cran.r-project.org)).
 
