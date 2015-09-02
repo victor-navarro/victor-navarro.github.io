@@ -1,3 +1,11 @@
-name: Flex
+name: "Victor Navarro's blog"
+description: "A blog about behavior"
+
+url: "https://victor-navarro.github.io"
+
+paginate: 10
+
 markdown: redcarpet
+permalink: pretty
 pygments: true
+comments: true
