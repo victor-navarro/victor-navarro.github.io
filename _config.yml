@@ -5,7 +5,7 @@ url: "https://victor-navarro.github.io"
 
 paginate: 10
 
-markdown: redcarpet
+markdown: kramdown
 permalink: pretty
 pygments: true
 
