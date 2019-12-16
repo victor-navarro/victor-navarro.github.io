@@ -1,8 +1,8 @@
 ---
 layout: post
-title: CEMC simulator repository available at github
-cover: cover.jpg
+title: "CEMC simulator repository available at github"
 date:   2015-08-25
+excerpt: "I have decided to learn the ways of git and make some of my work publicly available in github."
 categories: [modeling, categorization]
 ---
 
