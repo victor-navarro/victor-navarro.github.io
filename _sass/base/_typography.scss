@@ -21,6 +21,8 @@
 			font-size: 10pt;
 		}
 	}
+	
+	
 
 	body {
 		color: _palette(fg);
@@ -42,6 +44,7 @@
 		));
 		border-bottom: dotted 1px;
 		text-decoration: none;
+		
 
 		&:hover {
 			border-bottom-color: transparent;

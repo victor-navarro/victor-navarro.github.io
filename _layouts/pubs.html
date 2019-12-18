@@ -8,7 +8,7 @@
 <html>
 	<head>
     {% include head.html %}
-
+	
 	</head>
 	<body class="is-loading">
 		<!-- Wrapper -->
@@ -28,30 +28,24 @@
 
 				<!-- Main -->
 				<div id="main">
-					<p>Here is a list of my publications thus far. If you need a copy of the papers (or their datasets), do not hesitate to send me a line.</p>
+					<p>Here is a list of my publications thus far. If you need a copy of the papers (or their datasets), <a href="{{ "/contact_me/" | absolute_url }}">contact me.</a></p>
 					<!-- post -->
 					<section class="posts">
 						{% for post in site.pubs reversed %}
-							{% if post.categories contains "publication" %}
-								{% assign mod3 = forloop.index | modulo: 3 %}
-									<article>
-										<header>
-											<span class="date">{{ post.date | date_to_string }}</span>
-											<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-										</header>
-										<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-										<p>{{ post.excerpt }}</p>
-										<ul class="actions">
-											<li><a href="{{ post.url | absolute_url }}" class="button">Abstract</a></li>
-										</ul>
-									</article>
-							{% endif %}
+								<article>
+									<header>
+										<span class="date">{{ post.date | date_to_string }}</span>
+										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+									</header>
+									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+									<p>{{ post.excerpt }}</p>
+									<ul class="actions">
+										<li><a href="{{ post.url | absolute_url }}" class="button">Abstract</a></li>
+									</ul>
+								</article>
 						{% endfor %}
 					</section>
-
-					</div>
-
-
+				</div>
 			</div>
 
 			<!-- Scripts -->

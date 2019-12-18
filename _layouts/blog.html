@@ -30,24 +30,19 @@
 				<div id="main">
 					<!-- Post -->
 					<section class="posts">
-						{% for post in site.posts reversed %}
-							{% if post.categories contains "publication" %}
-							{% else %}
-								{% assign mod3 = forloop.index | modulo: 3 %}
-									<article>
-										<header>
-											<span class="date">{{ post.date | date_to_string }}</span>
-											<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-										</header>
-										<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-										<p>{{ post.excerpt }}</p>
-										<ul class="actions">
-											<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-										</ul>
-									</article>
-							{% endif %}
+						{% for post in site.posts%}						
+							<article>
+								<header>
+									<span class="date">{{ post.date | date_to_string }}</span>
+									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+								</header>
+								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+								<p>{{ post.excerpt }}</p>
+								<ul class="actions">
+									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+								</ul>
+							</article>
 						{% endfor %}
-
 					</section>
 
 					</div>

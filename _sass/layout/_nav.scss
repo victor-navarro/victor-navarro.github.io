@@ -76,6 +76,12 @@
 				@include vendor('flex-grow', '0');
 				@include vendor('flex-shrink', '0');
 				margin-bottom: 0;
+				li {
+					a {
+						font-size:25px;
+						border-bottom: none;
+					}
+				}
 			}
 		}
 

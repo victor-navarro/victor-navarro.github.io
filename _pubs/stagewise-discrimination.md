@@ -2,7 +2,7 @@
 layout: post
 title: "Stagewise multidimensional visual discrimination by pigeons"
 date:   2016-10-14
-excerpt: "Dimensional attention, step by step."
+excerpt: "Dimensional attention and the inverse hypothesis, step by step."
 image: "/images/stagewise-discrimination.jpg"
 categories: [discrimination, attention, publication]
 ---
