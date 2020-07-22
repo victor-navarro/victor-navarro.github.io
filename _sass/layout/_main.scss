@@ -7,12 +7,13 @@
 /* Main */
 
 	#main {
+	
 		background-color: _palette(bg);
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - #{_size(padding) * 2});
 		max-width: _size(wrapper);
-		z-index: 2;
+		z-index: 2;	
 
 		> * {
 			@include padding((_size(padding) * 2), (_size(padding) * 2));
