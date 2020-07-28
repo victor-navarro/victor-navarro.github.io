@@ -12,7 +12,8 @@ You can interact with the code by clicking this badge.  <a href="https://mybinde
 
 A static view of the code is shown below.
 
-<iframe src="https://nbviewer.jupyter.org/github/victor-navarro/binder-repo/blob/master/sdt_categorization.ipynb" width="100%" height="800" scrolling="yes"></iframe>
+<iframe src="/static_notebooks/SDT in Categorization.html" width="100%" marginwidth="0px" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+
 
 
 
