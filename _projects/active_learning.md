@@ -2,7 +2,7 @@
 layout: page
 title: active learning
 description: and its formalization
-img: assets/img/mnist.png
+img: assets/img/mnist.jpg
 importance: 3
 category: work
 ---
