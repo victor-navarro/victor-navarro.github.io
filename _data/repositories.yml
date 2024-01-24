@@ -1,12 +1,6 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - victor-navarro
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - victor-navarro/calmr
+  #- victor-navarro/gancat-python
