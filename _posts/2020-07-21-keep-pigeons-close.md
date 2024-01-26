@@ -13,7 +13,7 @@ If your physician suspects you might be suffering from heart disease, they will 
 
 <center><img src="/assets/img/cardiocol1.png" width="30%"></center><br>
 
- _Figure 1.  Many slices of MPS data (left column) are used to reconstruct the heart’s ventricle (top right) and processed into a format your physician can interpret (bottom right)._</span>
+ _Figure 1.  Many slices of MPS data (left column) are used to reconstruct the heart’s ventricle (top right) and processed into a format your physician can interpret (bottom right)._
 
 To avoid this interpretability problem, some researchers have proposed to aid humans’ interpretations [using artificial intelligence](https://dx.doi.org/10.1038%2Fs41568-018-0016-5). In a recent project, we took this proposal one step further, by requesting medical consultation from a feathery friend: the pigeon.
 In case you missed it, we have previously reported that [pigeons can proficiently classify mammograms and histology samples of human breast tissue as benign or malignant](https://doi.org/10.1371/journal.pone.0141357). This time around, using elementary operant conditioning techniques, [we trained pigeons to distinguish between MPS tests from normal of abnormal hearts](https://doi.org/10.3758/s13420-020-00410-z), which had nominal and low perfusion levels, respectively.
@@ -23,7 +23,7 @@ In each training session, pigeons were shown individual MPS images across severa
 
 <center><img src="/assets/img/cardiocol2.png" width="80%"></center><br>
 
-_Figure 2. Normal and abnormal MPS tests were shown as polar plots (left). A pigeon hard at work in the operant chamber (right)._</span>
+_Figure 2. Normal and abnormal MPS tests were shown as polar plots (left). A pigeon hard at work in the operant chamber (right)._
 
 Pigeons succeeded in quickly learning these images, attaining 80% to 85% accuracy. We then set out to discover whether our pigeons could generalize their diagnoses to images they had never seen before. The birds passed this generalization test with flying colors—categorization of novel images was as just accurate as was categorization of familiar images—confirming they had not merely memorized the appropriate response for each image, but rather had acquired true normal/abnormal categories. In a final test, we showed the pigeons black-and-white versions of the same MPS images they had seen in training. Despite these images conveying the identical information as their colored counterparts, pigeons were unable to categorize these images accurately. Clearly, color had played a pivotal part during learning.
 In a second experiment, a different cohort of pigeons was trained with black-and-white MPS images from the get-go. Although the absence of color information put a dent in the speed with which our pigeons learned to categorize the images, the birds were again able to transfer their performance to novel images with no loss in accuracy.
