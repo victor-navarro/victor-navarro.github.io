@@ -11,7 +11,7 @@ _This is a repost of a column that me and Ed Wasserman wrote for APAs Division 2
 According to the [CDC](https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm), you are more likely to die from heart disease than from cancer or respiratory diseases. Care-providers and researchers work around the clock to fight this gloomy statistic, developing preventative pharmacological and last-resort invasive therapies. However, the effective deployment of these therapies requires a timely and reliable method for detecting the onset of cardiac disease.
 If your physician suspects you might be suffering from heart disease, they will likely recommend you get a Myocardial Perfusion SPECT test (or MPS for short). Although this test is highly accurate in determining how well blood is flowing through the heart muscle (the myocardium), the decision of whether you will need treatment ultimately rests on how this test is interpreted by your physician. The bad news is that [studies](https://doi.org/10.1080/17434440.2017.1300057) have shown that human interpretation of MPS tests is fairly subjective: individual observers are only moderately accurate (they are correct 85% of the time), and inter-observer agreement is poor (different observers agree only 87% of the time).
 
-<center><img src="/assets/img/cardiocol1.png"></center>
+<center><img src="/assets/img/cardiocol1.png" width="80%"></center>
 
  _Figure 1.  Many slices of MPS data (left column) are used to reconstruct the heart’s ventricle (top right) and processed into a format your physician can interpret (bottom right)._</span>
 
@@ -21,7 +21,7 @@ Pigeons were initially trained to peck one of two different black-and-white patt
 
 In each training session, pigeons were shown individual MPS images across several trials. On each trial, pigeons had to peck the image multiple times. Having ensured pigeons had enough time to study the image, we presented them with two report buttons located on each side of the image. A final peck to either of the report buttons constituted the pigeon’s choice. If the image shown to them was normal and they pecked the “normal” report button, or if the image shown to them was abnormal and they pecked the “abnormal” button, then we rewarded them with food. However, if the pigeons pecked the incorrect button, then no food was given.
 
-<center><img src="/assets/img/cardiocol2.png"></center>
+<center><img src="/assets/img/cardiocol2.png" width="80%"></center>
 
 _Figure 2. Normal and abnormal MPS tests were shown as polar plots (left). A pigeon hard at work in the operant chamber (right)._</span>
 
