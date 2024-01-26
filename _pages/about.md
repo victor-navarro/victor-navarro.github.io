@@ -14,6 +14,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi there, I'm Victor. I am a Senior Research Fellow at <a href='https://www.cardiff.ac.uk/psychology'>Cardiff University</a> using experimental methods and mathematical formalism to study the learning processes in human and non-human animals. What about you?
+Hi there, I'm Victor. I am a Senior Research Fellow at <a href='https://www.cardiff.ac.uk/psychology'>Cardiff University</a> using experimental methods and mathematical formalism to study learning processes in human and non-human animals. What about you?
 
 Feel free to explore around. Hope you enjoy your stay!
