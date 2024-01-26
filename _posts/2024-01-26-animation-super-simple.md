@@ -2,7 +2,7 @@
 layout: post
 title: gganimate
 date: 2024-01-22 16:40:16
-description: starting anew
+description: poor-man's manim
 ---
 
 Not long ago I gave a talk about time extensions for HeiDI. As we expand the model to account for quantities (expectations and behaviour) across time, it is hard to get some points across with a "fully-revealed" function. Animation not only looks cool, but it also helps in driving some points.
