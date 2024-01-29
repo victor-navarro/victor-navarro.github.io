@@ -9,9 +9,10 @@ Not long ago I gave a talk about time extensions for HeiDI. As we expand the mod
 
 The `gganimate` package makes (some kinds of) animation fairly trivial. Here's some R code that generates the following gif.
 
-<center><img src="/assets/gif/everything_rs.gif", width="50%"></center>
+<center><img src="/assets/gif/everything_rs.gif" width="50%"></center><br>
 
-There's a lot of boilerplate code that generates the data for the plot (it is a full-on model after all), but the critical function is `transition_reveal()`, which will create an animation based on your x-axis variable. It's also really smart. Even though there is a `geom_point()` layer in the non-animated plot, it does not draw every single point in the animation.
+
+There's a lot of boilerplate code that generates the data for the plot (it is a full on model after all), but the critical function is `transition_reveal()`, which will create an animation based on your x-axis variable. It's also really smart. Even though there is a `geom_point()` layer in the non-animated plot, it does not draw every single point in the animation.
 
 ```R
 require(tidyverse)
