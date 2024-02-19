@@ -1,0 +1,18 @@
+{
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_posts/2024-02-19-calmr-refactor.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_posts/2015-08-26-first-post.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file"
+        }
+    ]
+}

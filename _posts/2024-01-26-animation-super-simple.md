@@ -5,14 +5,14 @@ date: 2024-01-22 16:40:16
 description: poor-man's manim
 ---
 
-Not long ago I gave a talk about time extensions for HeiDI. As we expand the model to account for quantities (expectations and behaviour) across time, it is hard to get some points across with a "fully-revealed" function. Animation not only looks cool, but it also helps in driving some points.
+Not long ago I gave a talk about time extensions for HeiDI. As we expand the model to account for quantities (expectations and behavior) across time, it is hard to get some points across with a "fully-revealed" function. Animation not only looks cool, but it also helps in driving some points.
 
 The `gganimate` package makes (some kinds of) animation fairly trivial. Here's some R code that generates the following gif.
 
 <center><img src="/assets/gif/everything_rs.gif" width="50%"></center><br>
 
 
-There's a lot of boilerplate code that generates the data for the plot (it is a full on model after all), but the critical function is `transition_reveal()`, which will create an animation based on your x-axis variable. It's also really smart. Even though there is a `geom_point()` layer in the non-animated plot, it does not draw every single point in the animation.
+There's a lot of boilerplate code that generates the data for the plot (it is a full-on model after all), but the critical function is `transition_reveal()`, which will create an animation based on your x-axis variable. It's also really smart. Even though there is a `geom_point()` layer in the non-animated plot, it does not draw every single point in the animation.
 
 ```R
 require(tidyverse)

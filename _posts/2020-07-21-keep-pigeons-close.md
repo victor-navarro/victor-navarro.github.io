@@ -6,7 +6,7 @@ excerpt: A general-audience write up of pigeons categorizing human hearts
 categories: [categorization, medical, images, pigeon, experiment]
 ---
 
-_This is a repost of a column that me and Ed Wasserman wrote for APAs Division 25._
+_This is a repost of a column that Ed Wasserman and I wrote for APAs Division 25._
 
 According to the [CDC](https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm), you are more likely to die from heart disease than from cancer or respiratory diseases. Care-providers and researchers work around the clock to fight this gloomy statistic, developing preventative pharmacological and last-resort invasive therapies. However, the effective deployment of these therapies requires a timely and reliable method for detecting the onset of cardiac disease.
 If your physician suspects you might be suffering from heart disease, they will likely recommend you get a Myocardial Perfusion SPECT test (or MPS for short). Although this test is highly accurate in determining how well blood is flowing through the heart muscle (the myocardium), the decision of whether you will need treatment ultimately rests on how this test is interpreted by your physician. The bad news is that [studies](https://doi.org/10.1080/17434440.2017.1300057) have shown that human interpretation of MPS tests is fairly subjective: individual observers are only moderately accurate (they are correct 85% of the time), and inter-observer agreement is poor (different observers agree only 87% of the time).

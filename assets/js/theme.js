@@ -104,6 +104,7 @@ let setMermaidTheme = (theme) => {
   /* Re-render the SVG, based on https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/_includes/mermaid.html */
   document.querySelectorAll(".mermaid").forEach((elem) => {
     // Get the code block content from previous element, since it is the mermaid code itself as defined in Markdown, but it is hidden
+    console.log(elem)
     let svgCode = elem.previousSibling.childNodes[0].innerHTML;
     elem.removeAttribute("data-processed");
     elem.innerHTML = svgCode;
