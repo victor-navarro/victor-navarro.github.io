@@ -8,7 +8,7 @@ mermaid:
     zoomable: true
 ---
 
-I spent a good part of last week refactoring my [calmr](https://victor-navarro.org/calmr) package. The whole thing was motivated by creating an *add-on* package that included time-based models. Funnily enough, while developing this new package, I found myself rewriting some of the core functionalities in the base package so as to make them flexible enough to accommodate both trial- and time-based models. It did not work.
+I spent a good part of last week refactoring my [calmr](https://victornavarro.org/calmr) package. The whole thing was motivated by creating an *add-on* package that included time-based models. Funnily enough, while developing this new package, I found myself rewriting some of the core functionalities in the base package so as to make them flexible enough to accommodate both trial- and time-based models. It did not work.
 
 After a week of hair-pulling, I've finalized all changes and merged the experimental branch into the main branch of the [github repository](https://github.com/victor-navarro/calmr).
 
