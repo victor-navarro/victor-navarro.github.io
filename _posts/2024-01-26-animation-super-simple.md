@@ -16,7 +16,7 @@ There's a lot of boilerplate code that generates the data for the plot (it is a 
 
 ```R
 require(tidyverse)
-require(calmr)
+require(calm)
 require(gganimate)
 
 source("scripts/time/HD2022_custom.R")
@@ -36,7 +36,7 @@ set.seed(2024)
 theme_set(tidybayes::theme_tidybayes())
 
 exp <- data.frame(group = "G", P1 = "30A>(US)/30AB", R1 = TRUE)
-calmr_args <- make_model_args(exp, model = "HD2022")
+calm_args <- make_model_args(exp, model = "HD2022")
 
 # these are minimum parameters required to run the model
 epochs <- 30
@@ -77,9 +77,9 @@ manual_alphas["A", 11:30] <- c(cs_trace, off_trace)
 manual_alphas["B", 11:30] <- c(cs_trace, off_trace)
 
 other_args$manual_alphas <- manual_alphas
-other_args$calmr_alphas <- c("A" = cs_alpha, "B" = cs_alpha, "US" = us_alpha)
+other_args$calm_alphas <- c("A" = cs_alpha, "B" = cs_alpha, "US" = us_alpha)
 
-mod <- time_wrapper(other_args, calmr_args)
+mod <- time_wrapper(other_args, calm_args)
 # parse_mod
 
 rs <- parse_mod(mod, "rs") %>%

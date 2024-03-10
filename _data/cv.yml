@@ -118,7 +118,7 @@
 - title: Open source projects
   type: map
   contents:
-    - name: <a href="https://victornavarro.org/calmr/">calmr</a>
+    - name: <a href="https://victornavarro.org/calm/">calm</a>
       value: Canonical Associative Learning Models in R, a package to simulate associative learning experiments using mathematical models.
 
 - title: Publications
@@ -126,7 +126,7 @@
   contents:
     - title: In preparation/under review
       items:
-        - "Navarro, V. M., Honey, R. C., & Dwyer, D. calmr: Canonical Associative Learning models in R."
+        - "Navarro, V. M., Honey, R. C., & Dwyer, D. calm: Canonical Associative Learning models in R."
         - "Navarro, V. M., Honey, R. C., & Dwyer, D. Conditioning and extinction of and sign tracking."
         - "Navarro, V. M., & Wasserman, E. A. Humans show symmetry despite the absence of backward training and stimulus overlap."
     - title: Articles in peer-reviewed journals
