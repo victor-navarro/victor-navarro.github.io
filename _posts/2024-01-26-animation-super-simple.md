@@ -16,7 +16,7 @@ There's a lot of boilerplate code that generates the data for the plot (it is a 
 
 ```R
 require(tidyverse)
-require(calm)
+require(calmr)
 require(gganimate)
 
 source("scripts/time/HD2022_custom.R")

@@ -1,18 +1,18 @@
 ---
 layout: post
-title: calm refactor
+title: calmr refactor
 date: 2024-02-19
-description: a calm calm
+description: a calmr calmr
 mermaid:
     enabled: true
     zoomable: true
 ---
 
-I spent a good part of last week refactoring my [calm](https://victornavarro.org/calm) package. The whole thing was motivated by creating an *add-on* package that included time-based models. Funnily enough, while developing this new package, I found myself rewriting some of the core functionalities in the base package so as to make them flexible enough to accommodate both trial- and time-based models. It did not work.
+I spent a good part of last week refactoring my [calmr](https://victornavarro.org/calmr) package. The whole thing was motivated by creating an *add-on* package that included time-based models. Funnily enough, while developing this new package, I found myself rewriting some of the core functionalities in the base package so as to make them flexible enough to accommodate both trial- and time-based models. It did not work.
 
-After a week of hair-pulling, I've finalized all changes and merged the experimental branch into the main branch of the [github repository](https://github.com/victor-navarro/calm).
+After a week of hair-pulling, I've finalized all changes and merged the experimental branch into the main branch of the [github repository](https://github.com/victor-navarro/calmr).
 
-### A calm calm
+### A calmr calmr
 
 In the refactor, I rewrote some of the S4 classes. The calmModel class plays a less pivotal role; it has been superseded in importance by the calmExperiment class. In fact, pretty much everything revolves around experiments now. Here is a little flow diagram that explains the current organization.
 
@@ -49,7 +49,7 @@ The previous version of the package had around 40 tests, and now it is sitting c
 The package now seamlessly supports many models in an experiment, thanks to the `c` method for `calmExperiments`. Just run two experiments (or better yet, use the `compare_models` function) and the results will include many models per output. This functionality was key for fixing the methods associated with representational similarity analysis (I really need to write an article about that).
 
 ##### Simpler app
-With the refactor of the main package, I had to refactor the `calm` `shiny` app. I did a pass on the janky HTML code for the header and reorganized some of the widgets. I reactivated the app's sidebar and threw some of the options there. I also removed some of the options to maintain simplicity.
+With the refactor of the main package, I had to refactor the `calmr` `shiny` app. I did a pass on the janky HTML code for the header and reorganized some of the widgets. I reactivated the app's sidebar and threw some of the options there. I also removed some of the options to maintain simplicity.
 
 ### The last 10% takes 90% of the time
 At some point, I was happy enough to merge the experimental branch into the main branch. All tests passed. Documentation built correctly. Vignettes were knitted. The website was ready and so were the `gh-pages` actions.
