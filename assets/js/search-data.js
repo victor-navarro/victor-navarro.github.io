@@ -56,7 +56,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/calmr-refactor-copy/";
+            window.location.href = "/blog/2024/calmr-refactor/";
           
         },
       },{id: "post-gganimate",
@@ -218,6 +218,12 @@ ninja.data = [{
               window.location.href = "/news/calmr_published/";
             },},{id: "news-our-work-applying-heidi-to-the-acquisition-and-extinction-of-autoshaping-in-rats-was-accepted-for-publication-in-nlm",
           title: 'Our work applying HeiDI to the acquisition and extinction of autoshaping in rats...',
+          description: "",
+          section: "News",},{id: "news-our-recent-work-replicating-findings-in-backward-conditioning-of-autoshaping-in-rats-as-well-as-a-mysterious-second-order-conditioning-finding-was-recently-published-in-jep-alc",
+          title: 'Our recent work replicating findings in backward conditioning of autoshaping in rats (as...',
+          description: "",
+          section: "News",},{id: "news-a-couple-of-follow-up-studies-on-associative-symmetry-were-recently-accepted-for-publication-in-jeab",
+          title: 'A couple of follow up studies on associative symmetry were recently accepted for...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
