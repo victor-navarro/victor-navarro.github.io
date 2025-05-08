@@ -14,14 +14,14 @@ After a week of hair-pulling, I've finalized all changes and merged the experime
 
 ### A calmr calmr
 
-In the refactor, I rewrote some of the S4 classes. The calmModel class plays a less pivotal role; it has been superseded in importance by the calmExperiment class. In fact, pretty much everything revolves around experiments now. Here is a little flow diagram that explains the current organization.
+In the refactor, I rewrote some of the S4 classes. The calmrModel class plays a less pivotal role; it has been superseded in importance by the calmrExperiment class. In fact, pretty much everything revolves around experiments now. Here is a little flow diagram that explains the current organization.
 
 ```mermaid 
 stateDiagram
     state "Design data.frame" as s1
-    state "calmExperiment" as exp1
-    state "calmExperiment" as exp2
-    state "calmResults" as res
+    state "calmrExperiment" as exp1
+    state "calmrExperiment" as exp2
+    state "calmrResults" as res
     state "Plots/Graphs" as pg
     state "Usable results" as ures
     s1-->exp1: make_experiment fn
@@ -38,7 +38,7 @@ If you just want to get a quick and dirty simulation, you can make your way thro
 
 If you are in the business of model fitting. Then you can precompute experiment arguments using `make_experiment` and pass that to your model function.
 
-I think I finally got the hang of generic methods, so I've renamed many of the clumsy calm_*something* functions into just *something*. I've also added some getter and setter methods not shown above. For example, the `parameters` method for calmExperiment objects will return a list of the parameters for the experiment (which otherwise is accessible at experiment@arguments$parameters). More importantly, calling `parameters(experiment) <- new_parameters` lets you set the parameters for the experiment whilst tricking you into thinking `experiment` is mutable.
+I think I finally got the hang of generic methods, so I've renamed many of the clumsy calmr_*something* functions into just *something*. I've also added some getter and setter methods not shown above. For example, the `parameters` method for calmrExperiment objects will return a list of the parameters for the experiment (which otherwise is accessible at experiment@arguments$parameters). More importantly, calling `parameters(experiment) <- new_parameters` lets you set the parameters for the experiment whilst tricking you into thinking `experiment` is mutable.
 
 ### Extra stuff
 
@@ -46,7 +46,7 @@ I think I finally got the hang of generic methods, so I've renamed many of the c
 The previous version of the package had around 40 tests, and now it is sitting close to 90! I cannot emphasize enough how important these tests were, and how satisfying it is to go from 20 to 80 passed tests by fixing one single line of code.
 
 ##### More flexibility
-The package now seamlessly supports many models in an experiment, thanks to the `c` method for `calmExperiments`. Just run two experiments (or better yet, use the `compare_models` function) and the results will include many models per output. This functionality was key for fixing the methods associated with representational similarity analysis (I really need to write an article about that).
+The package now seamlessly supports many models in an experiment, thanks to the `c` method for `calmrExperiments`. Just run two experiments (or better yet, use the `compare_models` function) and the results will include many models per output. This functionality was key for fixing the methods associated with representational similarity analysis (I really need to write an article about that).
 
 ##### Simpler app
 With the refactor of the main package, I had to refactor the `calmr` `shiny` app. I did a pass on the janky HTML code for the header and reorganized some of the widgets. I reactivated the app's sidebar and threw some of the options there. I also removed some of the options to maintain simplicity.

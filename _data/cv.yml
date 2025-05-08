@@ -124,11 +124,6 @@
 - title: Publications
   type: nested_list
   contents:
-    - title: In preparation/under review
-      items:
-        - "Navarro, V. M., Honey, R. C., & Dwyer, D. calmr: Canonical Associative Learning models in R."
-        - "Navarro, V. M., Honey, R. C., & Dwyer, D. Conditioning and extinction of and sign tracking."
-        - "Navarro, V. M., & Wasserman, E. A. Humans show symmetry despite the absence of backward training and stimulus overlap."
     - title: Articles in peer-reviewed journals
       items:
         - Please see my <a href="/publications/">publications</a> page
