@@ -1,97 +1,134 @@
-- title: General Information
+- title: Victor Manuel Navarro Pinto
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+    - name: Position
+      value: Senior Research Fellow
+    - name: Institution
+      value: School of Psychology, Cardiff University
+    - name: Address
+      value: "70 Park Pl, CF10 3AT, Cardiff, UK"
+    - name: Contact
+      value: navarrov@cardiff.ac.uk
     - name: Languages
-      value: English, German
+      value: Spanish (Native), English (Expert)
 
-- title: Education
+- title: Education and Research
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Senior Research Fellow
+      year: 2023-
+      description:  "MSCA Fellowship (UKRI Guarantee) at Cardiff University: Generative Adversarial Networks for Categorization (GANCAT)."
+    - title: Research Associate
+      year: 2022-2023
+      description: "BBSRC project at Cardiff University: How knowledge affects behaviour in a model system (PI: Prof. Robert Honey; Co-I: Prof. Dominic Dwyer)."
+    - title: Research Associate
+      year: "2021"
+      description: Comparative study of the categorisation of medical images in pigeons and humans. The University of Iowa. Blast-induced TBI in rats and its effect in complex visual discrimination and retinal ganglion cell function. VA Center for the Prevention and Treatment of Visual Loss.
+    - title: PhD and MA Student in Psychology
+      year: 2014-2020
+      description: Comparative study of category learning, visual discrimination, and decisional processes in pigeons and humans. Psychological and Brain Sciences, The University of Iowa. Supervised by Prof. Edward Wasserman.
+    - title: Psychologist and BA in Psychology
+      year: 2008-2013
+      description: Techniques for the prevention of the resurgence of extinguished conditioned responses (drug tolerance and conditioned fear). Universidad de Chile. Supervised by Prof. Ronald Betancourt.
 
-- title: Experience
+- title: Awards and Fellowships
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - description: Marie Skłodowska-Curie Actions Postdoctoral European Fellowship, European Commission (€220,000).
+      year: 2023
+    - description: SEAB Dissertation Award in Basic Research. Division 25 (Behavior Analysis), American Psychological Association (€1,000).
+      year: 2022
+    - description: Chilean National Agency for Research and Development (ANID) grant for the installation in the academy (declined; €188,000).
+      year: 2021
+    - description: Brenda A. Milner Award for outstanding paper in the field of behavioral neuroscience or comparative psychology. Division 6 (Behavioral Neuroscience and Comparative Psychology) American Psychological Association (€1,000).
+      year: 2021
+    - description: Ballard-Seashore Dissertation Fellowship. Department of Psychological and Brain Sciences, The University of Iowa (€10,000).
+      year: 2018
+    - description: Ballard-Seashore Dissertation Fellowship. Department of Psychological and Brain Sciences, The University of Iowa (€10,000).
+      year: 2016
+    - description: Fulbright Commission Fellowship for Doctoral Students and CONICYT Fellowship for International Doctorate Studies (€95,000).
+      year: 2014-2018
+    - description: Chilean Education Ministry (MINEDUC) Scholarship for Academic Excellence (€10,000).
+      year: 2008-2013
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - description: "Invited lecturer. Escuela de Psicología, Universidad Católica del Maule. Workshop: Bayesian Estimation of Mixed-effects Models."
+      year: 2021
+    - description: "Teaching Assistant. Department of Psychological and Brain Sciences, The University of Iowa. PSYC:2812 Research Methods and Data Analysis in Psychology II. PSYC:2975 Introduction to Cognitive Neuroscience. PSYC:4020 Laboratory in Psychology: Visual Attention. PSYC:4020 Laboratory in Psychology: Adaptive Processes."
+      year: 2019-2020
+    - description: Co-lecturer (with Prof. Ronald Betancourt). Departamento de Psicología, Universidad de Chile. Contemporaneous Perspectives in Motivation.
+      year: 2013
+    - description: Teaching Assistant. Departamento de Psicología, Universidad de Chile. Experimental Psychology. Basic Processes of Learning. Elementary Psychology.
+      year: 2009-2013
+    - description: Teaching Assistant. Escuela de Psicología, Universidad Alberto Hurtado. Behavioral and Cognitive Psychology. Teaching Assistant. Programa de Bachillerato, Universidad de Chile. Elementary Psychology.
+      year: 2010-2013
 
-- title: Honors and Awards
+- title: Student Supervision
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - description: Magdalena Lazarczyk (Ph.D). Human and computer representation of images synthesized by generative adversarial networks. Cardiff University
+      year: 2023-
+    - description: Odysseus Orr (Undergraduate). Categorization of medical images by humans and pigeons. Science Alliance Internship Program.
+      year: 2020-2023
+    - description: Daniel Cole (Undergraduate). Pigeon precrastination in choice tasks with identical options. Summer Research Opportunities Program.
+      year: 2018
+    - description: Xueying Zhao (Undergraduate). Perceptual separability and integrality of three-dimensional visual stimuli in the pigeon. Honors program at The University of Iowa.
+      year: 2017-2018
+    - description: Tatiana Smith (Undergraduate). The effect of target-background congruency on categorization in pigeons. Honors program at The University of Iowa.
+      year: 2016-2017
 
-- title: Academic Interests
+- title: Technical Experience / Workflow
+  type: map
+  contents:
+    - name: Analysis
+      value: HPC using SLURM + R, Python
+    - name: Experiments
+      value: ABET, MedPC, jsPsych, Psychopy, Psychtoolbox
+    - name: General programming
+      value: R, Python, MATLAB/Octave, JavaScript, C++
+
+- title: Additional Information
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Invited talks
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - "Generative Adversarial Networks (GANs) as a Tool for Cognitive Science. University of Nottingham."
+        - "Prediction error in models of adaptive behavior. PALM: Online Meetings on the Psychology of Associative Learning and Memory."
+        - "La complejidad en el estudio de la conducta: Tumores redes y modelos. Universidad de Chile (2023)."
+        - "La búsqueda de asociaciones recíprocas en animales no-humanos. Sociedad Interamericana de Psicología (2022)."
+        - "The quest for bidirectional associations in non-humans. American Psychological Association Convention (2022)."
+        - "The acquisition and expression of select- and reject-control in pigeons and humans. American Psychological Association Convention (2022)."
 
-- title: Other Interests
-  type: list
+    - title: Ad-hoc reviewer for
+      items: 
+        - Quarterly Journal of Experimental Psychology
+        - Behavioural Processes
+        - Animal Cognition
+    - title: Media coverage
+      items: >
+        My research has been featured in major news outlets such as 
+        <a href="https://www.bbc.com/news/science-environment-34878151">BBC</a>, 
+        <a href="https://www.cbc.ca/news/health/pigeons-cancer-mammograms-health-1.3677698">CBC</a>, 
+        <a href="https://www.cnn.com/2015/11/19/health/pigeons-as-cancer-detectors/index.html">CNN</a>, and 
+        <a href="https://www.scientificamerican.com/article/using-pigeons-to-diagnose-cancer/">Scientific American</a>, the newsletter of 
+        <a href="https://www.apadivisions.org/division-25/publications/newsletters/recorder/2020/08/issue.pdf">APA Division 25</a>, and TV programs such as BCC's Winterwatch.
+
+- title: Open source projects
+  type: map
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - name: <a href="https://victornavarro.org/calmr/">calmr</a>
+      value: Canonical Associative Learning Models in R, a package to simulate associative learning experiments using mathematical models.
+
+- title: Publications
+  type: nested_list
+  contents:
+    - title: In preparation/under review
+      items:
+        - "Navarro, V. M., Honey, R. C., & Dwyer, D. calmr: Canonical Associative Learning models in R."
+        - "Navarro, V. M., Honey, R. C., & Dwyer, D. Conditioning and extinction of and sign tracking."
+        - "Navarro, V. M., & Wasserman, E. A. Humans show symmetry despite the absence of backward training and stimulus overlap."
+    - title: Articles in peer-reviewed journals
+      items:
+        - Please see my <a href="/publications/">publications</a> page
