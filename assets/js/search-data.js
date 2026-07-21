@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/calmr/";
           },
-        },{id: "post-calmr-app-update",
+        },{id: "post-shj-in-the-classroom",
+        
+          title: "SHJ in the classroom",
+        
+        description: "A demo with 100% success (n=1)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/reflecting-shj/";
+          
+        },
+      },{id: "post-calmr-app-update",
         
           title: "calmr.app update",
         
@@ -224,6 +235,15 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-a-couple-of-follow-up-studies-on-associative-symmetry-were-recently-accepted-for-publication-in-jeab",
           title: 'A couple of follow up studies on associative symmetry were recently accepted for...',
+          description: "",
+          section: "News",},{id: "news-our-selective-review-of-pavlov-s-and-contemporary-ideas-on-backward-conditioning-as-well-as-our-own-work-was-published-in-nlm",
+          title: 'Our (selective) review of Pavlov’s and contemporary ideas on backward conditioning, as well...',
+          description: "",
+          section: "News",},{id: "news-odysseus-work-with-pigeons-categorising-echocardiograms-has-been-accepted-for-publication-in-frontiers-in-psych",
+          title: 'Odysseus work with pigeons categorising echocardiograms has been accepted for publication in Frontiers...',
+          description: "",
+          section: "News",},{id: "news-my-r-package-calmr-has-surpassed-10k-downloads-on-cran-with-users-from-all-over-the-world-thank-you-for-using-it",
+          title: 'My R package calmr has surpassed 10K downloads on CRAN, with users from...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
