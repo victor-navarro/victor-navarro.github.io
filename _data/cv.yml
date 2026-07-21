@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Position
-      value: Senior Research Fellow
+      value: Research Associate
     - name: Institution
       value: School of Psychology, Cardiff University
     - name: Address
@@ -15,8 +15,11 @@
 - title: Education and Research
   type: time_table
   contents:
+    - title: Research Associate
+      year: 2026-
+      description:  "DRUMAI: A generative-AI system for rhythmic training (PIs: Dr Claudia Metzler-Baddeley & Dr Paddy Slator)."
     - title: Senior Research Fellow
-      year: 2023-
+      year: 2023-2025
       description:  "MSCA Fellowship (UKRI Guarantee) at Cardiff University: Generative Adversarial Networks for Categorization (GANCAT)."
     - title: Research Associate
       year: 2022-2023
@@ -54,6 +57,10 @@
 - title: Teaching Experience
   type: time_table
   contents:
+    - description: "Guest lecturer. School of Psychology, Cardiff University. Psychological Research: Comparative approaches for the study of categorization."
+      year: 2025
+    - description: "Guest lecturer. School of Psychology, Cardiff University. Animal Learning and Cognition: An introduction to mathematical models of associative learning."
+      year: 2025
     - description: "Invited lecturer. Escuela de Psicología, Universidad Católica del Maule. Workshop: Bayesian Estimation of Mixed-effects Models."
       year: 2021
     - description: "Teaching Assistant. Department of Psychological and Brain Sciences, The University of Iowa. PSYC:2812 Research Methods and Data Analysis in Psychology II. PSYC:2975 Introduction to Cognitive Neuroscience. PSYC:4020 Laboratory in Psychology: Visual Attention. PSYC:4020 Laboratory in Psychology: Adaptive Processes."
