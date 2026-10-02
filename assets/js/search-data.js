@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/calmr/";
           },
-        },{id: "post-shj-in-the-classroom",
+        },{id: "post-vpn-woes-in-ubuntu-26",
+        
+          title: "VPN woes in Ubuntu 26",
+        
+        description: "VPN @ Cardiff",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/vpn-woes/";
+          
+        },
+      },{id: "post-shj-in-the-classroom",
         
           title: "SHJ in the classroom",
         
