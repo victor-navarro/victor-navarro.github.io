@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/calmr/";
           },
-        },{id: "post-vpn-woes-in-ubuntu-26",
+        },{id: "post-the-asratyan-tapes",
+        
+          title: "The Asratyan tapes",
+        
+        description: "For posterity",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/asratyan-tapes/";
+          
+        },
+      },{id: "post-vpn-woes-in-ubuntu-26",
         
           title: "VPN woes in Ubuntu 26",
         
