@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/calmr/";
           },
-        },{id: "post-the-asratyan-tapes",
+        },{id: "post-replicating-shj-in-the-classroom",
+        
+          title: "Replicating SHJ in the classroom",
+        
+        description: "A demo with 100% success (n=2)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/replication-shj/";
+          
+        },
+      },{id: "post-the-asratyan-tapes",
         
           title: "The Asratyan tapes",
         
